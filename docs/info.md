@@ -9,12 +9,13 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+The Project is a Asynchronous 3 Bit Down Counter.In the asynchronous counter, an external clock pulse is provided for only the first Flip-Flop, thereafter the output of the 1st Flip-Flop acts as a clock pulse for the second Flip-Flop and so on. In the case of synchronous Flip-Flops, all 
+the Flip-Flops are triggered simultaneously by an external clock pulse.
 
 ## How to test
 
-Explain how to use your project
+Pressing the button in succession will make the counter count.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+7SEG-Display
